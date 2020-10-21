@@ -3,19 +3,32 @@
     <hr class="w-50 pb-4 colorD">
     <div class="container contactFormContainer colorD">
         <label for="name" class="text-left millgoudy fontSize18">
-            Name:<br>
+            Name:
+            <br>
             <input type="text" name="name" placeholder="Name" required>
-        </label><br>
+        </label>
+        <br>
         <label for="email" class="text-left millgoudy fontSize18">
-            Email:<br>
+            Email:
+            <br>
             <input type="email" name="email" placeholder="Email" required>
-        </label><br>
+        </label>
+        <br>
         <label for="phone" class="text-left millgoudy fontSize18">
-            Phone:<br>
+            Phone:
+            <br>
             <input type="tel" name="phone" placeholder="Phone" required>
-        </label><br>
+        </label>
+        <br>
+        <label for="" class="text-left millgoudy fontSize18">
+            Date: 
+            <br>
+            <input type="date" required>
+        </label>
+        <br>
         <label for="set" class="text-left millgoudy fontSize18">
-            Lash Set:<br>
+            Lash Set:
+            <br>
                 <select name="set" id="" placeholder="" class="millgoudy fontSize18">
                     <option value="setOne">Set 1</option>
                     <option value="setTwo">Set 2</option>
