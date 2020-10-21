@@ -103,7 +103,22 @@ font-weight: 500;
     color: #3A2C2E !important;
   }
   
+
+  /* Contact Form */
+  .contactFormContainer input,
+  .contactFormContainer select,
+  .contactFormContainer option {
+    border: 1px solid #75595d;
+    border-radius: 5px;
+    padding: 1.3% 1.3%;
+    width: 100%;
+  }
   
+  .contactFormContainer label,
+  .contactFormContainer select,
+  .contactFormContainer option{
+    width: 55%;
+  }
 
     /* Navbar */
   .navbar{
@@ -172,12 +187,6 @@ font-weight: 500;
 
 /* Cards */
 
-.attachment-woocommerce_thumbnail{
-  /* margin: 3% 0; */
-}
-
-
-
 /* buttons */
   .add_to_cart_button{
     margin: 2%;
@@ -193,6 +202,38 @@ font-weight: 500;
   padding: 1.5% 0;
 }
 
+.footerDetails ul{
+  list-style-type: none;
+}
+
+.footerDetails li{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+/* Sections */
+.sectionOne,
+.sectionTwo
+ {
+  min-height: 100vh;
+}
+
+.sectionThree{
+  min-height:77vh ;
+}
+
+.sectionThree button{
+margin: 0;
+padding: 1%;
+font-size: 17px;
+background-color:#E3BFBA
+}
+
+.sectionTwo{
+  background-color: #75595d;
+}
 
   body, html{
     margin: 0;

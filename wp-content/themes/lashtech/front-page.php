@@ -2,17 +2,8 @@
     get_header();
     require_once('includes/hero.php');
     require_once('includes/sectionone.php');
-?>
-
-
-
-
-
-
-
-
-
-
-    <?php
+    require_once('includes/sectiontwo.php');
+    require_once('includes/sectinthree.php');
+    require_once('includes/footerdetails.php');
     get_footer();
 ?>

@@ -16,3 +16,11 @@ Stack trace:
 #4 {main}
   thrown in /Users/helvinrymer/Local Sites/enya/app/public/wp-content/themes/lashtech/includes/sectionone.php on line 18
 
+2020-10-21T18:28:17+00:00 CRITICAL require_once(): Failed opening required 'includes/sectionthree.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/helvinrymer/Local Sites/enya/app/public/wp-content/themes/lashtech/front-page.php on line 6
+
+2020-10-21T18:28:24+00:00 CRITICAL require_once(): Failed opening required 'includes/sectionthree.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/helvinrymer/Local Sites/enya/app/public/wp-content/themes/lashtech/front-page.php on line 6
+
+2020-10-21T18:31:29+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in /Users/helvinrymer/Local Sites/enya/app/public/wp-content/themes/lashtech/includes/footerdetails.php on line 2
+
+2020-10-21T18:35:23+00:00 CRITICAL syntax error, unexpected '?>' in /Users/helvinrymer/Local Sites/enya/app/public/wp-content/themes/lashtech/includes/footerdetails.php on line 2
+
