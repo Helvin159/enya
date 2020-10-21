@@ -1,0 +1,18 @@
+2020-10-21T15:12:04+00:00 CRITICAL Uncaught Error: Call to undefined function get_post_thumbnail_url() in /Users/helvinrymer/Local Sites/enya/app/public/wp-content/themes/lashtech/includes/sectionone.php:18
+Stack trace:
+#0 /Users/helvinrymer/Local Sites/enya/app/public/wp-content/themes/lashtech/front-page.php(4): require_once()
+#1 /Users/helvinrymer/Local Sites/enya/app/public/wp-includes/template-loader.php(106): include('/Users/helvinry...')
+#2 /Users/helvinrymer/Local Sites/enya/app/public/wp-blog-header.php(19): require_once('/Users/helvinry...')
+#3 /Users/helvinrymer/Local Sites/enya/app/public/index.php(17): require('/Users/helvinry...')
+#4 {main}
+  thrown in /Users/helvinrymer/Local Sites/enya/app/public/wp-content/themes/lashtech/includes/sectionone.php on line 18
+
+2020-10-21T15:12:06+00:00 CRITICAL Uncaught Error: Call to undefined function get_post_thumbnail_url() in /Users/helvinrymer/Local Sites/enya/app/public/wp-content/themes/lashtech/includes/sectionone.php:18
+Stack trace:
+#0 /Users/helvinrymer/Local Sites/enya/app/public/wp-content/themes/lashtech/front-page.php(4): require_once()
+#1 /Users/helvinrymer/Local Sites/enya/app/public/wp-includes/template-loader.php(106): include('/Users/helvinry...')
+#2 /Users/helvinrymer/Local Sites/enya/app/public/wp-blog-header.php(19): require_once('/Users/helvinry...')
+#3 /Users/helvinrymer/Local Sites/enya/app/public/index.php(17): require('/Users/helvinry...')
+#4 {main}
+  thrown in /Users/helvinrymer/Local Sites/enya/app/public/wp-content/themes/lashtech/includes/sectionone.php on line 18
+

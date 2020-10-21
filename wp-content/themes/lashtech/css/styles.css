@@ -1,26 +1,22 @@
 @import url("https://use.typekit.net/syb5zbi.css");
 
-  /* 
-  Quicksand
+/* 
+Poppins
 
-  font-family: quicksand,
-  sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  
-  OFL Sorts Mill Goudy
+font-family: poppins,
+sans-serif;
+font-style: normal;
+font-weight: 100; 
 
-  font-family: sorts-mill-goudy,
-  serif;
-  font-style: normal;
-  font-weight: 500;
+Mill Goudy
 
-  Poiret
-  font-family: poiret-one,
-  sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  */
+font-family: sorts-mill-goudy,
+serif;
+font-style: normal;
+font-weight: 500;
+*/
+
+
 
 
   /* Typography */
@@ -31,68 +27,72 @@
   h5,
   h6,
   .page-title {
+      font-family: poppins,
+      sans-serif;
+      font-style: normal;
+      font-weight: 100;
+  }
+
+  p, button, span{
       font-family: sorts-mill-goudy,
       serif;
       font-style: normal;
       font-weight: 500;
   }
 
-  p, button, span{
-      font-family: quicksand,
-      sans-serif;
-      font-style: normal;
-      font-weight: 500;
-  }
-
   a{
-      font-family: quicksand,
-      sans-serif;
+      font-family: sorts-mill-goudy,
+      serif;
       font-style: normal;
       font-weight: 500;
-      color: black;
   }
 
   /* Font Variations | Keep below header tags, p tags, a tags, etc for priority purposes */
     /* Everything else */
-  .poiret {
-      font-family: poiret-one,
-          sans-serif;
-      font-style: normal;
-      font-weight: 400;
+  .poppins {
+    font-family: poppins,
+      sans-serif;
+    font-style: normal;
+    font-weight: 100;
   }
 
-  /* Headers */
-  .quicksand {
-      font-family: quicksand,
-          sans-serif;
-      font-style: normal;
-      font-weight: 300;
-  }
-
-    /* Logo or Main */
-  .millgoudy {
-      font-family: sorts-mill-goudy,
-          serif;
-      font-style: normal;
-      font-weight: 500;
+  .millgoudy{
+    font-family: sorts-mill-goudy,
+    serif;
+    font-style: normal;
+    font-weight: 500;
   }
 
   /* Colors */
-  .palePink {
+  .colorA{
+    color:#f0c0c7;
+  }
+  
+  .colorB{
+    color:#ffb0bc;
+  }
+  .colorC {
       color: #FADADD;
   }
 
+  .colorD{
+    color: #75595d;
+  }
+
+  .colorE{
+    color:#c7a0a6;
+  }
   
   
 
     /* Navbar */
   .navbar{
-      position: fixed;
+      position: absolute;
       top: 0;
       right: 0;
       left: 0;
-      background-color: rgba(0,0,0,0.6) !important;
-      padding: 1.3% 0;
+      background-color: rgba(0,0,0,0.3) !important;
+      padding: 1.3% 1%;
   }
 
   .navbar-brand{
@@ -112,10 +112,10 @@
     width: 100vw;
     padding: 0;
     margin: 0;
-    background: linear-gradient(90deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../assets/img/2.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+    background-color: #FADADD;
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center center; */
 
   }
 
@@ -124,7 +124,7 @@
       top: 35%;
       left: 29%;
       font-size: 65px;
-      color: white;
+      color: #75595d;
       font-family: sorts-mill-goudy,
       serif;
       font-style: normal;
@@ -140,7 +140,7 @@
     margin: 0;
     padding: 2.5%;
     font-size: 17px;
-    background-color:#FADADD;
+    background-color:#E3BFBA;
   }
 
 
@@ -169,5 +169,7 @@
 
 
   body, html{
+    margin: 0;
+    padding: 0;
     overflow-x: hidden;
   }

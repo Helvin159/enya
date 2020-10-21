@@ -1,7 +1,33 @@
 <div class="container-fluid">
     <div class="container text-center p-5">
-        <h1>Heading 1</h1>
-        <p>Curabitur laoreet mattis dui, facilisis sodales est maximus a. Etiam tempor congue hendrerit. Suspendisse at orci venenatis, dignissim elit vel, mollis ligula. Aenean lobortis, arcu nec convallis suscipit, sem mi cursus purus, in mattis velit felis eu felis. Vivamus porttitor, tellus ultricies molestie faucibus, orci nisi tempor mauris, eget pellentesque odio erat pharetra justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent sed malesuada mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel consequat nisi. Ut vehicula pulvinar pharetra. Sed malesuada vehicula purus luctus faucibus. Cras tincidunt dictum arcu at aliquet. Vestibulum quis tincidunt lorem.</p>
+<!-- Maecenas ex orci, aliquet sed nisl in, gravida pellentesque ligula. Maecenas accumsan tincidunt sem, at fermentum mi tristique gravida. Nunc eget orci urna. Donec pellentesque tincidunt nulla, non vestibulum magna. Etiam facilisis felis tellus, lacinia porttitor justo porta eu. Fusce condimentum, nisi in lobortis consectetur, diam ante maximus lacus, eget finibus turpis erat nec urna. Proin sodales sed mi vitae dignissim. Aliquam non magna purus. -->
+    
+        <h1 class=" p-md-0 p-lg-5 colorD">High Quality Lash Sets!</h1>
+        <p class="mb-5 colorD">Maecenas ex orci, aliquet sed nisl in, gravida pellentesque ligula.</p>
+        <div class="row p-lg-3">
+        <?php 
+            $showPost = new WP_Query(array(
+                'posts_per_page' => 3,
+                'post_type' => 'product',
+                'paged' => false,
+                'order' => 'ASC'
+            ));
+
+            while($showPost->have_posts()){
+                $showPost->the_post() ?>
+                <div class="col-md-4 py-3">
+                    <div class="container text-center">
+                        <div class="container">
+                            <img class="mr-5 pr-5" src="<?php echo get_the_post_thumbnail_url()?>" alt="" height="150" width="250">
+                        </div>
+                        <hr>
+                        <a class="colorD" href="<?php the_permalink()?>"><?php the_title()?></a>
+                    </div>
+                
+                </div>
+            <?php }
+        ?>
+        </div>
     </div>
     
 </div>

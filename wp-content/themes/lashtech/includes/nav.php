@@ -1,15 +1,10 @@
 <nav class="navbar navbar-expand-lg navbar-dark">
-  <a class="navbar-brand palePink poiret pl-3" href="<?php echo esc_url(site_url('/'))?>">ENYAS LASHES</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse " id="navbarSupportedContent">
-    <ul class="navbar-nav m-auto">
-      <li class="nav-item ">
-        <a class="nav-link  <?php if($_SERVER['REQUEST_URI'] == '/'){echo 'active';}; ?>" href="<?php echo esc_url(site_url('/'))?>">Home <span class="sr-only">(current)</span></a>
-      </li>
-      
+    <ul class="navbar-nav">
       <!-- <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Dropdown
@@ -31,8 +26,7 @@
         <a class="nav-link <?php if($_SERVER['REQUEST_URI'] == '/faq/'){echo 'active';}; ?>" href="<?php echo esc_url(site_url('/faq/'))?>">FAQ</a>
       </li>
     </ul>
-    <div class="nav-item pr-5 ">
-      <a class="palePink <?php if($_SERVER['REQUEST_URI'] == '/shop/'){echo 'active';}; ?>" href="<?php echo esc_url(site_url('/shop/'))?>">Book a Session</a>
-    </div>
+    
   </div>
+        <a class="navbar-brand  poppins" href="<?php echo esc_url(site_url('/'))?>">ENYAS LASHES</a>
 </nav>
