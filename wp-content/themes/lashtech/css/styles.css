@@ -81,6 +81,8 @@
   .palePink {
       color: #FADADD;
   }
+
+  
   
 
     /* Navbar */
@@ -95,6 +97,8 @@
 
   .navbar-brand{
     color: #FADADD !important;
+    font-size: 30px;
+    
   }
 
   .active{
@@ -140,6 +144,15 @@
   }
 
 
+/* Cards */
+
+.attachment-woocommerce_thumbnail{
+  margin: 3% 0;
+}
+
+
+
+/* buttons */
   .add_to_cart_button{
     margin: 2%;
     padding: 2% 3.5%;
@@ -147,6 +160,7 @@
     background-color:#FADADD;
   }
 
+  /* Footer */
 .footerDetails{
   background-color: #FADADD;
   bottom: 0;

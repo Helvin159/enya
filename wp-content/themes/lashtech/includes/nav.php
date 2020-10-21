@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark">
-  <a class="navbar-brand palePink millgoudy mr-0 pl-5" href="#">ENYAS LASHES</a>
+  <a class="navbar-brand palePink poiret pl-3" href="<?php echo esc_url(site_url('/'))?>">ENYAS LASHES</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
