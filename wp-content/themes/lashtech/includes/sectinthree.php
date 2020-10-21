@@ -17,7 +17,6 @@
         <label for="set" class="text-left millgoudy fontSize18">
             Lash Set:<br>
                 <select name="set" id="" placeholder="" class="millgoudy fontSize18">
-                    <option value="">Which set would you like?</option>
                     <option value="setOne">Set 1</option>
                     <option value="setTwo">Set 2</option>
                     <option value="setThree">Set 3</option>
