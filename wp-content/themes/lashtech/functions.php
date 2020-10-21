@@ -22,9 +22,9 @@ function lash_files (){
     
       // CSS
     //   wp_enqueue_style('my-style', get_theme_file_uri('/css/styles.css'), null, '1.0', 'all');
-      wp_enqueue_style('my-style', get_theme_file_uri('/bundled-assets/styles.f09c231a59adb2a0a2f3.css'), null, '1.0', 'all');
+      wp_enqueue_style('my-style', get_theme_file_uri('/bundled-assets/styles.557870a808329b383bcd.css'), null, '1.0', 'all');
       wp_enqueue_script('our-vendors-js', get_theme_file_uri('/bundled-assets/vendors~scripts.eb459030a4410eb492af.js'), NULL, '1.0', true);
-      wp_enqueue_script('main-lash-scripts', get_theme_file_uri('/bundled-assets/scripts.f09c231a59adb2a0a2f3.js'), NULL, '1.0', true);
+      wp_enqueue_script('main-lash-scripts', get_theme_file_uri('/bundled-assets/scripts.557870a808329b383bcd.js'), NULL, '1.0', true);
     }
 
   wp_localize_script('main-lash-scripts', 'maniacData', array(
@@ -55,6 +55,24 @@ function lash_features(){
 }
 
 add_action('after_setup_theme', 'lash_features');
+
+function mytheme_add_woocommerce_support() {
+  add_theme_support( 'woocommerce', array(
+      'thumbnail_image_width' => 150,
+      'single_image_width'    => 300,
+
+      'product_grid'          => array(
+          'default_rows'    => 3,
+          'min_rows'        => 3,
+          'max_rows'        => 8,
+          'default_columns' => 2,
+          'min_columns'     => 2,
+          'max_columns'     => 2,
+      ),
+  ) );
+}
+
+add_action( 'after_setup_theme', 'mytheme_add_woocommerce_support' );
 
 
 // Customize Login Screen

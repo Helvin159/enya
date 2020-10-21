@@ -6,13 +6,11 @@
 
   <div class="collapse navbar-collapse " id="navbarSupportedContent">
     <ul class="navbar-nav m-auto">
-      <li class="nav-item <?php if($_SERVER['REQUEST_URI'] == '/'){echo 'active';}; ?>">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      <li class="nav-item ">
+        <a class="nav-link  <?php if($_SERVER['REQUEST_URI'] == '/'){echo 'active';}; ?>" href="<?php echo esc_url(site_url('/'))?>">Home <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item dropdown">
+      
+      <!-- <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Dropdown
         </a>
@@ -22,13 +20,19 @@
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Something else here</a>
         </div>
+      </li> -->
+      <li class="nav-item  ">
+        <a class="nav-link  <?php if($_SERVER['REQUEST_URI'] == '/contact/'){echo 'active';}; ?>" href="<?php echo esc_url(site_url('/contact/'))?>">Contact</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link <?php if($_SERVER['REQUEST_URI'] == '/about/'){echo 'active';}; ?>" href="<?php echo esc_url(site_url('/about/'))?>">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        <a class="nav-link <?php if($_SERVER['REQUEST_URI'] == '/faq/'){echo 'active';}; ?>" href="<?php echo esc_url(site_url('/faq/'))?>">FAQ</a>
       </li>
     </ul>
     <div class="nav-item pr-5 ">
-        <a class="palePink" href="#">Book a Session</a>
+      <a class="palePink <?php if($_SERVER['REQUEST_URI'] == '/shop/'){echo 'active';}; ?>" href="<?php echo esc_url(site_url('/shop/'))?>">Book a Session</a>
     </div>
   </div>
 </nav>
