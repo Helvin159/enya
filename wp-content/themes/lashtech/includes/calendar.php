@@ -10,10 +10,10 @@
     
                 while($count < $daysInMonth){ 
                     $count++; ?>
-                    <div class="col-md-2 py-4 days  <?php if($count == date('n')){ echo 'todayBg'; } ?> " >
+                    <div  class="col-md-2 py-4 days  <?php if($count == date('n')){ echo 'todayBg'; } ?> " >
                     
                         <div class="container day <?php if($count == date('n')){ echo 'todayFont'; } ?>   ">
-                            <h4><?php echo $count; ?></h4>  
+                            <button id="<?php echo $count; ?>" class="btn button dayBtns px-5"><?php echo $count; ?></button>  
                         </div>
                         <div class="container">
                             <?php 

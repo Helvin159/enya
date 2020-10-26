@@ -2,33 +2,34 @@ import $ from 'jquery'
 
 class DayClick{
     constructor(){
-        this.days = $('.days');
-        this.agendaShown = true;
+        this.days = $('.dayBtns');
+        this.agenda = $('.agenda');
+        this.agendaShown = false;
         this.events();
     }
 
 
     events(){
-        if(this.agendaShown === false){
             this.days.on('click', this.showAgenda)
-        }
-        
-        if(this.agendaShown === true){
-            this.days.on('click', this.closeAgenda)
-        }
+            // this.days.on('click', this.closeAgenda)
     }
 
 
     // Methods
     showAgenda(){
-        $('.agenda').addClass('showAgenda')
+        this.agenda.addClass('showAgenda')
         this.agendaShown = true;
+        // console.log(this.days.val()) 
+        // console.log(this.days.attr()) 
     }
 
     closeAgenda(){
-            $('.agenda').removeClass('showAgenda')
-            this.agendaShown = false;
-        }
+        this.agenda.removeClass('showAgenda')
+        this.agendaShown = false;
+        console.log(this.agendaShown)
+
+
+    }
     
 }
     
