@@ -4,8 +4,6 @@ function lash_files (){
   
   // Font Awesome
   wp_enqueue_style('font_awesome', '//use.fontawesome.com/releases/v5.14.0/css/all.css', null, '1.0', 'all');
-  // Google Fonts
-  wp_enqueue_style('google_fonts', '//fonts.googleapis.com/css?family=Quicksand|Sedgwick+Ave+Display&display=swap', null, '1.0', 'all');
   // Bootstrap
   wp_enqueue_style('bootstrap', '//stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css', null, '1.0', 'all');
   
@@ -16,9 +14,9 @@ function lash_files (){
   } else{
       // CSS
     //   wp_enqueue_style('my-style', get_theme_file_uri('/css/styles.css'), null, '1.0', 'all');
-      wp_enqueue_style('my-style', get_theme_file_uri('/bundled-assets/styles.252e05d4e67a3f097b3b.css'), null, '1.0', 'all');
+      wp_enqueue_style('my-style', get_theme_file_uri('/bundled-assets/styles.7c6ce7b81492caf9ad69.css'), null, '1.0', 'all');
       wp_enqueue_script('our-vendors-js', get_theme_file_uri('/bundled-assets/vendors~scripts.920bf068e75aa8ef387f.js'), NULL, '1.0', true);
-      wp_enqueue_script('main-lash-scripts', get_theme_file_uri('/bundled-assets/scripts.252e05d4e67a3f097b3b.js'), NULL, '1.0', true);
+      wp_enqueue_script('main-lash-scripts', get_theme_file_uri('/bundled-assets/scripts.7c6ce7b81492caf9ad69.js'), NULL, '1.0', true);
     }
 
   // Jquery
