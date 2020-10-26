@@ -4,7 +4,7 @@
 ?>
     <div class="container-fluid">
         <div class="container pt-5">
-            <h3><?php echo date('F')?></h3>
+            <h1><?php echo date('F')?></h1>
         </div>
         <?php require_once('includes/calendar.php') ?>
     </div>
