@@ -16,7 +16,7 @@
                 <div class="col-md-4 py-3">
                     <div class="container text-center">
                         <div class="container">
-                            <img class="img-fluid" src="<?php echo get_the_post_thumbnail_url()?>" alt="Lashes" >
+                            <img class="img-fluid" src="<?php echo get_the_post_thumbnail_url('SmallLandscape')?>" alt="Lashes" >
                         </div>
                         <hr>
                         <a class="colorD fontSize20" href="<?php the_permalink()?>"><?php the_title()?></a>
