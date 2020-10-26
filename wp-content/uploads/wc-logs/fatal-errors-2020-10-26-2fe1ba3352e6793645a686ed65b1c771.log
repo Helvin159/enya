@@ -1,0 +1,20 @@
+2020-10-26T15:25:51+00:00 CRITICAL syntax error, unexpected ')' in /Users/helvinrymer/Local Sites/enya/app/public/wp-content/themes/lashtech/page-contact.php on line 15
+
+2020-10-26T15:33:49+00:00 CRITICAL syntax error, unexpected 'while' (T_WHILE) in /Users/helvinrymer/Local Sites/enya/app/public/wp-content/themes/lashtech/page-contact.php on line 21
+
+2020-10-26T15:36:26+00:00 CRITICAL syntax error, unexpected '$daysInMonth' (T_VARIABLE) in /Users/helvinrymer/Local Sites/enya/app/public/wp-content/themes/lashtech/page-contact.php on line 19
+
+2020-10-26T15:38:21+00:00 CRITICAL syntax error, unexpected 'print_r' (T_STRING) in /Users/helvinrymer/Local Sites/enya/app/public/wp-content/themes/lashtech/page-contact.php on line 24
+
+2020-10-26T15:45:30+00:00 CRITICAL syntax error, unexpected '$month' (T_VARIABLE) in /Users/helvinrymer/Local Sites/enya/app/public/wp-content/themes/lashtech/page-contact.php on line 15
+
+2020-10-26T15:55:10+00:00 CRITICAL syntax error, unexpected '}' in /Users/helvinrymer/Local Sites/enya/app/public/wp-content/themes/lashtech/page-contact.php on line 22
+
+2020-10-26T16:00:14+00:00 CRITICAL syntax error, unexpected 'while' (T_WHILE) in /Users/helvinrymer/Local Sites/enya/app/public/wp-content/themes/lashtech/page-contact.php on line 31
+
+2020-10-26T16:07:38+00:00 CRITICAL syntax error, unexpected '}', expecting ',' or ';' in /Users/helvinrymer/Local Sites/enya/app/public/wp-content/themes/lashtech/page-contact.php on line 35
+
+2020-10-26T16:45:27+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in /Users/helvinrymer/Local Sites/enya/app/public/wp-content/themes/lashtech/page-contact.php on line 22
+
+2020-10-26T17:05:46+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /Users/helvinrymer/Local Sites/enya/app/public/wp-content/themes/lashtech/includes/calendar.php on line 30
+

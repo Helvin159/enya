@@ -146,7 +146,7 @@ font-weight: 500;
     border-color: #75595d;
   }
 
-  /* Home Hero */
+  /* Hero & Banner */
 
   .hero{
     height: 100vh;
@@ -184,9 +184,68 @@ font-weight: 500;
     background-color:#E3BFBA;
   }
 
+  .banner{
+    height: 45vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    background-color: #FADADD;
+  }
+
+  .bannerText{
+    position: absolute;
+    top: 20%;
+    left: 29%;
+    font-size: 65px;
+    color: #75595d;
+    font-family: sorts-mill-goudy,
+    serif;
+    font-style: normal;
+    font-weight: 500;
+    width: 43%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+
+/* Calendar */
+.days{
+  border: 1px solid #FADADD;
+  cursor: pointer;
+
+}
+
+.day{
+  color: #75595d;
+  cursor: pointer;
+}
+
+.agenda{
+  display:none;
+  background-color: #FADADD;
+  padding: 0 15%;
+  border-radius: 5px;
+  margin: 1%;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.showAgenda{
+  display: block;
+}
+
+.todayBg{
+  background-color: #75595d;
+  cursor: pointer;
+}
+.todayFont{
+  color: #FADADD;
+  cursor: pointer;
+}
+
 
 /* Cards */
-
 /* buttons */
   .add_to_cart_button{
     margin: 2%;
