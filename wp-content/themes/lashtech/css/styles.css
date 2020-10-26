@@ -179,9 +179,13 @@ font-weight: 500;
 
   .hero a {
     margin: 0;
+    
     padding: 2.5%;
     font-size: 17px;
     background-color:#E3BFBA;
+    position: absolute;
+    top: 90%;
+    left: 50%;
   }
 
   .banner{
