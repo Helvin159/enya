@@ -17,7 +17,7 @@
         </div>
       </li> -->
       <li class="nav-item  ">
-        <a class="nav-link colorD <?php if($_SERVER['REQUEST_URI'] == '/contact/'){echo 'active';}; ?>" href="<?php echo esc_url(site_url('/contact/'))?>">Contact</a>
+        <a class="nav-link colorD <?php if($_SERVER['REQUEST_URI'] == '/contact/'){echo 'active';}; ?>" href="<?php echo esc_url(site_url('/contact/'))?>">Book a Session</a>
       </li>
       <li class="nav-item ">
         <a class="nav-link colorD <?php if($_SERVER['REQUEST_URI'] == '/about/'){echo 'active';}; ?>" href="<?php echo esc_url(site_url('/about/'))?>">About</a>
