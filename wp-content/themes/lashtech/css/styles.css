@@ -360,7 +360,16 @@ background-color:#E3BFBA
   background-repeat: no-repeat !important;
   background-position: center center !important;
 }
-
+  .heroBtn {
+    margin: 0;
+    padding: 1%;
+    font-size: 17px;
+    background-color: #E3BFBA;
+    position: absolute;
+    top: 70%;
+    left: 35.5%;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+  }
   
 }
 
