@@ -12,7 +12,7 @@
                 while($count < $daysInMonth){ 
                     $count++; ?>
                     <div  class="col-md-2 py-4 days  <?php if($count == date('j')){ echo 'todayBg'; } ?> " >
-                        <i class="far fa-times-circle colorD text-right closeBtn"></i>
+                        <i class="far fa-times-circle <?php if($count == date('j')){ echo 'todayFont'; }else{ echo 'colorD';} ?> text-right closeBtn fontSize22"></i>
                     
                         <div class="container day <?php if($count == date('j')){ echo 'todayFont'; } ?>   ">
                             <p id="<?php echo $count; ?>" class="px-5 fontSize28"><?php echo $count; ?></p>  
@@ -36,7 +36,9 @@
                                     ?>
                                 </select> 
                                 <div class="container py-2">
-                                    <button href="#" class="  btn button <?php if($count == date('n')){ echo 'todayFont'; } ?> colorD ">Book Session</button>
+                                    <button href="#" class="  btn button <?php if($count == date('j')){ echo 'todayFont'; }else{ echo 'colorD';} ?>">
+                                        Book Session
+                                    </button>
                                 </div>                                      
                             </div>
                              
