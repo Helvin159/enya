@@ -2,3 +2,7 @@
 
 2020-10-27T15:54:13+00:00 CRITICAL syntax error, unexpected 'while' (T_WHILE) in /Users/helvinrymer/Local Sites/enya/app/public/wp-content/themes/lashtech/includes/calendar.php on line 26
 
+2020-10-27T16:15:59+00:00 CRITICAL syntax error, unexpected '?>', expecting ')' in /Users/helvinrymer/Local Sites/enya/app/public/wp-content/themes/lashtech/includes/calendar.php on line 17
+
+2020-10-27T16:18:20+00:00 CRITICAL syntax error, unexpected ')' in /Users/helvinrymer/Local Sites/enya/app/public/wp-content/themes/lashtech/includes/calendar.php on line 17
+

@@ -61,6 +61,21 @@ font-weight: 500;
   }
   .fontSize20{
     font-size: 20px !important;
+  }  
+  .fontSize22{
+    font-size: 22px !important;
+  }
+  .fontSize24{
+    font-size: 24px !important;
+  }
+  .fontSize26{
+    font-size: 26px !important;
+  }
+  .fontSize28{
+    font-size: 28px !important;
+  }
+  .fontSize30{
+    font-size: 30px !important;
   }
 
   /* Font Variations | Keep below header tags, p tags, a tags, etc for priority purposes */
@@ -227,26 +242,51 @@ font-weight: 500;
 
 .agenda{
   display:none;
+  margin: 0;
   /* background-color: #FADADD; */
   /* padding: 0 15%; */
-  border-radius: 5px; 
+  /* border-radius: 5px;  */
   /* margin: 1%; */
   /* font-size: 20px; */
   cursor: pointer;
+}
+
+.closeBtn{
+  display: none;
 }
 
 .showAgenda{
   display: block;
 }
 
+.bookingTimeOption {
+  border-radius: 5px;
+  border: 2px solid #75595d;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: #75595d;
+
+}
+
 .todayBg{
   background-color: #75595d;
   cursor: pointer;
 }
+
 .todayFont{
   color: #FADADD;
   cursor: pointer;
 }
+
+.todayBookingTimeOption{
+  border: 2px solid #FADADD;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+
 
 
 /* Cards */

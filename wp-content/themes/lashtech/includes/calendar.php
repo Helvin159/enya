@@ -11,14 +11,16 @@
     
                 while($count < $daysInMonth){ 
                     $count++; ?>
-                    <div  class="col-md-2 py-4 days  <?php if($count == date('n')){ echo 'todayBg'; } ?> " >
+                    <div  class="col-md-2 py-4 days  <?php if($count == date('j')){ echo 'todayBg'; } ?> " >
+                        <i class="far fa-times-circle colorD text-right closeBtn"></i>
                     
-                        <div class="container day <?php if($count == date('n')){ echo 'todayFont'; } ?>   ">
-                            <button id="<?php echo $count; ?>" class="btn button dayBtns px-5"><?php echo $count; ?></button>  
+                        <div class="container day <?php if($count == date('j')){ echo 'todayFont'; } ?>   ">
+                            <p id="<?php echo $count; ?>" class="px-5 fontSize28"><?php echo $count; ?></p>  
                         </div>
                         <div class="container">
-                            <div class="agenda container">
-                                <select name="" id="">
+                            <div class="agenda px-2">
+
+                                <select name="time" id="bookingTime" class="p-2 <?php if($count == date('n')){ echo 'todayBookingTimeOption'; } ?> bookingTimeOption">
                                     <?php 
                                         $hoursOfTheDay = 9;
                                         while($hoursOfTheDay < 20){ 
@@ -32,9 +34,14 @@
                                             </option>                                         
                                         <?php }                 
                                     ?>
-                                </select>                                       
+                                </select> 
+                                <div class="container py-2">
+                                    <button href="#" class="  btn button <?php if($count == date('n')){ echo 'todayFont'; } ?> colorD ">Book Session</button>
+                                </div>                                      
                             </div>
+                             
                         </div>
+
                     </div>
                 <?php 
                 } ?>
