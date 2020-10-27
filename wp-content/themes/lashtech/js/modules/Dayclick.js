@@ -2,7 +2,7 @@ import $ from 'jquery'
 
 class DayClick{
     constructor(){
-        this.days = $('.day');
+        this.days = $('.openTime');
         this.agenda = $('.agenda');
         this.closeBtn = $('.closeBtn');
         this.agendaShown = false;

@@ -11,10 +11,10 @@
     
                 while($count < $daysInMonth){ 
                     $count++; ?>
-                    <div  class="col-md-2 py-4 days  <?php if($count == date('j')){ echo 'todayBg'; } ?> " >
+                    <div  class="col-md-2 py-4 days  <?php if($count < date('j')){ echo 'previousDateOverlay';}; if($count == date('j')){ echo 'todayBg'; } ?> " >
                         <i class="far fa-times-circle <?php if($count == date('j')){ echo 'todayFont'; }else{ echo 'colorD';} ?> text-right closeBtn fontSize22"></i>
                     
-                        <div class="container day <?php if($count == date('j')){ echo 'todayFont'; } ?>   ">
+                        <div class="container day <?php if($count <= date('j')){ echo ' ';}else{ echo 'openTime'; }; if($count == date('j')){ echo 'todayFont'; } ?>   ">
                             <p id="<?php echo $count; ?>" class="px-5 fontSize28"><?php echo $count; ?></p>  
                         </div>
                         <div class="container">
@@ -35,7 +35,7 @@
                                         <?php } ?>
                                 </select> 
                                 <div class="container py-2">
-                                    <button href="#" type="none" class="btn button <?php if($count == date('j')){ echo 'todayFont'; }else{ echo 'colorD';} ?>">
+                                    <button href="#" type="none" class="btn button <?php  if($count == date('j')){ echo 'todayFont'; }else{ echo 'colorD';} ?>">
                                         Book
                                     </button>
                                 </div>                                      
@@ -46,6 +46,9 @@
                     </div>
                 <?php 
                 } ?>
+                <div class="previousDateOverlay">
+                    
+                </div>
             </div>
         </div>
     </div>
