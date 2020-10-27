@@ -295,8 +295,6 @@ font-weight: 500;
   background-color: #FADADD75;
 }
 
-
-
 /* Cards */
 /* buttons */
   .add_to_cart_button{
@@ -346,6 +344,14 @@ background-color:#E3BFBA
   background-color: #75595d;
 }
 
+.showContent{
+  display: block;
+}
+
+.hideContent{
+  display: none;
+}
+
   body, html{
     margin: 0;
     padding: 0;
@@ -374,7 +380,7 @@ background-color:#E3BFBA
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 414px) {
+@media only screen and (min-width: 413px) {
   .hero {
     background-color: #FADADD;
     background-size: contain !important;

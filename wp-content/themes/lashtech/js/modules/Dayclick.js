@@ -5,6 +5,10 @@ class DayClick{
         this.days = $('.openTime');
         this.agenda = $('.agenda');
         this.closeBtn = $('.closeBtn');
+        this.bookSesh = $('.bookSesh');
+        this.thankYou = $('.thankYou');
+        this.calendar = $('.calendar');
+        this.calendarTitle = $('.contactTitle');
         this.input = $('.bookingTimeOption');
         this.agendaShown = false;
         this.events();
@@ -14,6 +18,7 @@ class DayClick{
     events(){
         this.days.on('click', this.showAgenda.bind(this));
         this.closeBtn.on('click', this.closeAgenda.bind(this));            
+        this.bookSesh.on('click', this.bookSession.bind(this));            
     }
 
 
@@ -29,6 +34,17 @@ class DayClick{
     closeAgenda(){
         if(this.agendaShown === true){
             this.agenda.removeClass('showAgenda')
+            this.closeBtn.removeClass('showAgenda');
+            this.agendaShown = false;
+            // console.log(this.agendaShown)
+        }
+    }
+    bookSession(){
+        if(this.agendaShown === true){
+            this.thankYou.removeClass('hideContent');
+            this.calendar.addClass('hideContent');
+            this.calendarTitle.addClass('hideContent');
+            this.agenda.removeClass('showAgenda');
             this.closeBtn.removeClass('showAgenda');
             this.agendaShown = false;
             // console.log(this.agendaShown)

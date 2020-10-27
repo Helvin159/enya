@@ -35,7 +35,7 @@
                                         <?php } ?>
                                 </select> 
                                 <div class="container py-2">
-                                    <button href="#" type="none" class="btn button <?php  if($count == date('j')){ echo 'todayFont'; }else{ echo 'colorD';} ?>">
+                                    <button href="#" type="none"  class="bookSesh btn button <?php  if($count == date('j')){ echo 'todayFont'; }else{ echo 'colorD';} ?>">
                                         Book
                                     </button>
                                 </div>                                      
@@ -50,5 +50,8 @@
                     
                 </div>
             </div>
+        </div>
+        <div class="container py-5 hideContent thankYou text-center">
+            <h1 class="display-4 p-5">Thank You! <br> We'll be in touch as soon as possible!</h1>
         </div>
     </div>
