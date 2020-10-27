@@ -5,6 +5,7 @@ class DayClick{
         this.days = $('.openTime');
         this.agenda = $('.agenda');
         this.closeBtn = $('.closeBtn');
+        this.input = $('.bookingTimeOption');
         this.agendaShown = false;
         this.events();
     }
@@ -19,6 +20,7 @@ class DayClick{
     // Methods
     showAgenda(){
             this.agenda.addClass('showAgenda')
+            this.input.addClass('focus')
             this.closeBtn.addClass('showAgenda');
             this.agendaShown = true;
             // console.log(this.agendaShown)

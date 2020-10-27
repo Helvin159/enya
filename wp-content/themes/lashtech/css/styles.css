@@ -259,6 +259,11 @@ font-weight: 500;
   display: block;
 }
 
+.focus:focus{
+  color: #75595d;
+
+}
+
 .bookingTimeOption {
   border-radius: 5px;
   border: 2px solid #75595d;
