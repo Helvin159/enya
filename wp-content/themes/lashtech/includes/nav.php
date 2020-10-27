@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light">
-<a class="navbar-brand  poppins" href="<?php echo esc_url(site_url('/'))?>">ENYAS LASHES</a>
+<a class="navbar-brand  poppins" href="<?php echo esc_url(site_url('/'))?>"><img src="<?php echo get_theme_file_uri('assets/img/logo4.png')?>" alt="logo"></a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <i class="fas fa-bars"></i>
   </button>
