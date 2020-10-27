@@ -362,12 +362,12 @@ background-color:#E3BFBA
 }
   .heroBtn {
     margin: 0;
-    padding: 1%;
-    font-size: 17px;
+    padding: 2%;
+    font-size: 19px;
     background-color: #E3BFBA;
     position: absolute;
     top: 70%;
-    left: 35.5%;
+    left: 35%;
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
   }
 
@@ -384,12 +384,12 @@ background-color:#E3BFBA
   
   .heroBtn {
     margin: 0;
-    padding: 1%;
-    font-size: 17px;
+    padding: 2%;
+    font-size: 19px;
     background-color: #E3BFBA;
     position: absolute;
     top: 70%;
-    left: 35.5%;
+    left: 34%;
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
   }
 
