@@ -213,9 +213,9 @@ font-weight: 500;
 
   .bannerText{
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 29%;
-    font-size: 65px;
+    font-size: 60px;
     color: #75595d;
     font-family: sorts-mill-goudy,
     serif;

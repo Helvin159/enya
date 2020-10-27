@@ -1,4 +1,4 @@
-<div class="container">
+    <div class="container">
         <div class="row py-5 calendar">
             <?php 
                 $count = 0;
@@ -24,20 +24,19 @@
                                     <?php 
                                         $hoursOfTheDay = 9;
                                         while($hoursOfTheDay < 20){ 
-                                            $hoursOfTheDay++; ?>
+                                                $hoursOfTheDay++; ?>
                                                 <option value="<?php echo $hoursOfTheDay.':00'; if($hoursOfTheDay < 12 ){ echo 'AM'; } else{ echo ' PM'; } ?>">
                                                     <?php
                                                         echo $hoursOfTheDay.':00'; 
                                                         if($hoursOfTheDay < 12 ){ echo ' AM'; } 
                                                         else{ echo ' PM'; } 
                                                     ?> 
-                                            </option>                                         
-                                        <?php }                 
-                                    ?>
+                                                </option>                                         
+                                        <?php } ?>
                                 </select> 
                                 <div class="container py-2">
-                                    <button href="#" class="  btn button <?php if($count == date('j')){ echo 'todayFont'; }else{ echo 'colorD';} ?>">
-                                        Book Session
+                                    <button href="#" type="none" class="btn button <?php if($count == date('j')){ echo 'todayFont'; }else{ echo 'colorD';} ?>">
+                                        Book
                                     </button>
                                 </div>                                      
                             </div>
