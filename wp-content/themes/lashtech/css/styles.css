@@ -353,7 +353,7 @@ background-color:#E3BFBA
   }
 
 /* Extra small devices (phones, 400px and down) */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 414px) {
 .hero {
   background-color: #FADADD;
   background-size: contain !important;
@@ -374,7 +374,7 @@ background-color:#E3BFBA
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 414px) {
   .hero {
     background-color: #FADADD;
     background-size: contain !important;
@@ -397,11 +397,45 @@ background-color:#E3BFBA
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+  .hero {
+    background-color: #FADADD;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+  }
+
+  .heroBtn {
+    margin: 0;
+    padding: 2%;
+    font-size: 19px;
+    background-color: #E3BFBA;
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+  }
   
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+  .hero {
+    background-color: #FADADD;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+  }
+
+  .heroBtn {
+    margin: 0;
+    padding: 1%;
+    font-size: 19px;
+    background-color: #E3BFBA;
+    position: absolute;
+    top: 80%;
+    left: 44%;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+  }
   
 }
 
