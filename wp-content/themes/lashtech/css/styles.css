@@ -141,8 +141,8 @@ font-weight: 500;
       top: 0;
       right: 0;
       left: 0;
-      background-color: rgba(117,89,93,.26) !important;
-      padding: 1.5% 2%;
+      background-color: rgba(117,89,93,.40) !important;
+      padding: 3.5% 2%;
   }
 
   .navbar-brand{
@@ -174,21 +174,7 @@ font-weight: 500;
     background-position: center center !important;
   }
 
-  .heroText{
-      position: absolute;
-      top: 35%;
-      left: 29%;
-      font-size: 65px;
-      color: #75595d;
-      font-family: sorts-mill-goudy,
-      serif;
-      font-style: normal;
-      font-weight: 500;
-      width: 43%;
-      text-align: center;
-      margin: 0;
-      padding: 0;
-  }
+  
 
   .heroBtn{
     margin: 0;
@@ -196,7 +182,7 @@ font-weight: 500;
     font-size: 17px;
     background-color:#E3BFBA;
     position: absolute;
-    top:70%;
+    top:50%;
     left: 45%;
     box-shadow: 1px 1px 6px rgba(0,0,0,0.5);
   }
@@ -323,14 +309,20 @@ font-weight: 500;
 
 
 /* Sections */
-.sectionOne,
+
+.sectionOne{
+  height: auto;
+  padding: 15% 0;
+}
+
 .sectionTwo
  {
-  min-height: 100vh;
+  min-height: 60vh;
 }
 
 .sectionThree{
-  min-height:77vh ;
+height: auto;
+padding: 15% 0;
 }
 
 .sectionThree button{
@@ -362,9 +354,9 @@ background-color:#E3BFBA
 @media only screen and (max-width: 414px) {
 .hero {
   background-color: #FADADD;
-  background-size: contain !important;
+  background-size: cover !important;
   background-repeat: no-repeat !important;
-  background-position: center center !important;
+  background-position: left center !important;
 }
   .heroBtn {
     margin: 0;
@@ -372,20 +364,36 @@ background-color:#E3BFBA
     font-size: 19px;
     background-color: #E3BFBA;
     position: absolute;
-    top: 70%;
-    left: 35%;
+    top: 60%;
+    left: 30%;
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+  }
+  .heroText {
+    position: absolute;
+    top: 40%;
+    left: 3%;
+    font-size: 50px;
+    color: #75595d;
+    font-family: sorts-mill-goudy,
+      serif;
+    font-style: normal;
+    font-weight: 500;
+    width: 95%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
   }
 
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 413px) {
+@media only screen and (min-width: 414px) {
   .hero {
     background-color: #FADADD;
-    background-size: contain !important;
+    background-size: cover !important;
     background-repeat: no-repeat !important;
-    background-position: center center !important;
+    background-position: left center !important;
   }
   
   .heroBtn {
@@ -394,9 +402,26 @@ background-color:#E3BFBA
     font-size: 19px;
     background-color: #E3BFBA;
     position: absolute;
-    top: 70%;
+    top: 55%;
     left: 34%;
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+  }
+
+  .heroText {
+    position: absolute;
+    top: 40%;
+    left: 3%;
+    font-size: 50px;
+    color: #75595d;
+    font-family: sorts-mill-goudy,
+      serif;
+    font-style: normal;
+    font-weight: 500;
+    width: 95%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
   }
 
 }
@@ -407,7 +432,7 @@ background-color:#E3BFBA
     background-color: #FADADD;
     background-size: cover !important;
     background-repeat: no-repeat !important;
-    background-position: center center !important;
+    background-position: left center !important;
   }
 
   .heroBtn {
@@ -416,9 +441,25 @@ background-color:#E3BFBA
     font-size: 19px;
     background-color: #E3BFBA;
     position: absolute;
-    top: 80%;
-    left: 40%;
+    top: 55%;
+    left: 41%;
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+  }
+
+  .heroText {
+    position: absolute;
+    top: 35%;
+    left: 23%;
+    font-size: 65px;
+    color: #75595d;
+    font-family: sorts-mill-goudy,
+      serif;
+    font-style: normal;
+    font-weight: 500;
+    width: 55%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
   }
   
 }
@@ -438,9 +479,25 @@ background-color:#E3BFBA
     font-size: 19px;
     background-color: #E3BFBA;
     position: absolute;
-    top: 80%;
-    left: 44%;
+    top: 65%;
+    left: 42%;
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+  }
+
+  .heroText {
+    position: absolute;
+    top: 35%;
+    left: 27%;
+    font-size: 65px;
+    color: #75595d;
+    font-family: sorts-mill-goudy,
+      serif;
+    font-style: normal;
+    font-weight: 500;
+    width: 43%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
   }
   
 }
