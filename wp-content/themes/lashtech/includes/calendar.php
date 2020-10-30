@@ -15,8 +15,6 @@
                     $btnId++;
                     ?>
                     <div  class="col-md-2 py-4 days  <?php if($count < date('j')){ echo 'previousDateOverlay';}; if($count == date('j')){ echo 'todayBg'; } ?> " >
-                        
-                    
                         <div id="<?php echo $count; ?>" class="container day  <?php if($count <= date('j')){ echo ' ';}else{ echo 'openTime'; }; if($count == date('j')){ echo 'todayFont'; } ?>   ">
                             <i id="<?php echo "$btnId"; ?>" class="far fa-times-circle <?php if($count == date('j')){ echo 'todayFont'; }else{ echo 'colorD';} ?> text-right closeBtn fontSize22"></i>
                             <p  class="px-5 fontSize28"><?php echo $count; ?></p>  
@@ -34,6 +32,7 @@
                                                         echo $hoursOfTheDay.':00'; 
                                                         if($hoursOfTheDay < 12 ){ echo ' AM'; } 
                                                         else{ echo ' PM'; } 
+                                                        
                                                     ?> 
                                                     </option>                                         
                                             <?php } ?>

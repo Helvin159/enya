@@ -25,32 +25,27 @@ class DayClick{
 
 
     // Methods
-    showAgenda(){
+    showAgenda(e){
         if(this.agendaShown === false){
             setTimeout(() =>{
-                let dayId = this.days.attr('id')
+                let dayId = e.currentTarget.id
+                console.log(e.currentTarget.id)
                 $(`#${dayId}`).find($('.agenda')).addClass('showAgenda')
                 // alert(`#${dayId}`)
                 // this.input.addClass('focus')
                 $(`#${dayId}`).find($('.closeBtn')).addClass('showAgenda')
-                console.log(this.agendaShown)
             }, 100)
         } 
+        console.log(this.agendaShown)        
         return this.agendaShown = true
-
     }
 
     closeAgenda(){
         if(this.agendaShown === true){
-                        console.log(this.agendaShown)
-
-            let dayId = this.days.attr('id')
-            // alert(dayId);
-            $(`#${dayId}`).find($('.agenda')).removeClass('showAgenda')
-            $(`#${dayId}`).find($('.closeBtn')).removeClass('showAgenda')
-            // this.agendaShown = false;
-            // console.log(this.agendaShown)
+            $('.agenda').removeClass('showAgenda')
+            $('.closeBtn').removeClass('showAgenda')
         }
+        console.log(this.agendaShown)
         return this.agendaShown = false;
     }
     bookSession(){
@@ -63,9 +58,7 @@ class DayClick{
                 this.closeBtn.removeClass('showAgenda');
                 this.agendaShown = false;
             // console.log(this.agendaShown)
-            }, 850)
-
-            
+            }, 850)   
         }
     }
     
