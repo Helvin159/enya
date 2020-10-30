@@ -22,21 +22,8 @@
                                     <input class="inputFields" type="text" name="name" placeholder="Anne Doe"> 
                                     <input class="inputFields" type="tel" name="phoneNumber" placeholder="(978)888-888">  
                                     <input class="inputFields" type="email" name="email" placeholder="Email"> 
-                                    <select name="time" id="bookingTime" class="p-2 <?php if($count == date('n')){ echo 'todayBookingTimeOption'; } ?> bookingTimeOption">
-                                        <?php 
-                                            $hoursOfTheDay = 9;
-                                            while($hoursOfTheDay < 20){ 
-                                                $hoursOfTheDay++; ?>
-                                                    <option value="<?php echo $hoursOfTheDay.':00'; if($hoursOfTheDay < 12 ){ echo 'AM'; } else{ echo ' PM'; } ?>">
-                                                    <?php
-                                                        echo $hoursOfTheDay.':00'; 
-                                                        if($hoursOfTheDay < 12 ){ echo ' AM'; } 
-                                                        else{ echo ' PM'; } 
-                                                        
-                                                    ?> 
-                                                    </option>                                         
-                                            <?php } ?>
-                                    </select> 
+                                    <input class="inputFields" type="time" name="time" >
+                                    
                                     <div class="container py-2">
                                         <button  href="#" type="none"  class="bookSesh btn button <?php  if($count == date('j')){ echo 'todayFont'; }else{ echo 'colorD';} ?>">
                                         Book
