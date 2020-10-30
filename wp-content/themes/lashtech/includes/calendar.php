@@ -18,24 +18,25 @@
                         
                     
                         <div id="<?php echo $count; ?>" class="container day  <?php if($count <= date('j')){ echo ' ';}else{ echo 'openTime'; }; if($count == date('j')){ echo 'todayFont'; } ?>   ">
-                        <i id="<?php echo "$btnId"; ?>" class="far fa-times-circle <?php if($count == date('j')){ echo 'todayFont'; }else{ echo 'colorD';} ?> text-right closeBtn fontSize22"></i>
+                            <i id="<?php echo "$btnId"; ?>" class="far fa-times-circle <?php if($count == date('j')){ echo 'todayFont'; }else{ echo 'colorD';} ?> text-right closeBtn fontSize22"></i>
                             <p  class="px-5 fontSize28"><?php echo $count; ?></p>  
-                                <div class="container">
-                                    <div class="agenda px-2 ">
-
+                                <div class="agenda  text-center">
+                                    <input class="inputFields" type="text" name="name" placeholder="Anne Doe"> 
+                                    <input class="inputFields" type="tel" name="phoneNumber" placeholder="(978)888-888">  
+                                    <input class="inputFields" type="email" name="email" placeholder="Email"> 
                                     <select name="time" id="bookingTime" class="p-2 <?php if($count == date('n')){ echo 'todayBookingTimeOption'; } ?> bookingTimeOption">
                                         <?php 
                                             $hoursOfTheDay = 9;
                                             while($hoursOfTheDay < 20){ 
                                                 $hoursOfTheDay++; ?>
-                                                <option value="<?php echo $hoursOfTheDay.':00'; if($hoursOfTheDay < 12 ){ echo 'AM'; } else{ echo ' PM'; } ?>">
+                                                    <option value="<?php echo $hoursOfTheDay.':00'; if($hoursOfTheDay < 12 ){ echo 'AM'; } else{ echo ' PM'; } ?>">
                                                     <?php
                                                         echo $hoursOfTheDay.':00'; 
                                                         if($hoursOfTheDay < 12 ){ echo ' AM'; } 
                                                         else{ echo ' PM'; } 
                                                     ?> 
-                                                </option>                                         
-                                        <?php } ?>
+                                                    </option>                                         
+                                            <?php } ?>
                                     </select> 
                                     <div class="container py-2">
                                         <button  href="#" type="none"  class="bookSesh btn button <?php  if($count == date('j')){ echo 'todayFont'; }else{ echo 'colorD';} ?>">
@@ -43,9 +44,7 @@
                                         </button>
                                     </div>                                      
                                 </div>
-                             
-                        </div>
-                        </div>
+                            </div>
                         
 
                     </div>

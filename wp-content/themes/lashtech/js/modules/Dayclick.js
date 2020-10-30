@@ -33,10 +33,11 @@ class DayClick{
                 // alert(`#${dayId}`)
                 // this.input.addClass('focus')
                 $(`#${dayId}`).find($('.closeBtn')).addClass('showAgenda')
-                this.agendaShown = true
                 console.log(this.agendaShown)
-            }, 200)
+            }, 100)
         } 
+        return this.agendaShown = true
+
     }
 
     closeAgenda(){

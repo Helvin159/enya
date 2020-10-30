@@ -216,7 +216,6 @@ font-weight: 500;
 .days{
   border: 1px solid #FADADD;
   cursor: pointer;
-  
 }
 
 .day{
@@ -227,6 +226,8 @@ font-weight: 500;
 .agenda{
   display:none;
   margin: 0;
+  padding: 0;
+  /* height: 10%; */
   /* background-color: #FADADD; */
   /* padding: 0 15%; */
   /* border-radius: 5px;  */
@@ -239,15 +240,6 @@ font-weight: 500;
   display: none;
 }
 
-.showAgenda{
-  display: block;
-}
-
-.focus:focus{
-  color: #75595d;
-
-}
-
 .bookingTimeOption {
   border-radius: 5px;
   border: 2px solid #75595d;
@@ -257,6 +249,29 @@ font-weight: 500;
   color: #75595d;
 
 }
+
+.inputFields {
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid #75595d;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: #75595d;
+  margin: 5% 0;
+}
+
+
+.showAgenda{
+  display: block;
+}
+
+.focus:focus{
+  color: #75595d;
+
+}
+
+
 
 .todayBg{
   background-color: #75595d;
