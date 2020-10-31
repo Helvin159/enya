@@ -49,8 +49,10 @@
                         if($count <= 1){ 
                             $week = array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
                             $firstOfTheMonthkey = array_search($firstDayOfTheMonth, $week);
-                                echo $firstDayOfTheMonth;}
-                            else if($count > 1){ 
+                                echo $week[$firstOfTheMonthkey];
+                                $firstOfTheMonthkey++;
+                            }
+                            else if($count >= 1){ 
                                 echo $week[$firstOfTheMonthkey];
                                 $firstOfTheMonthkey++;
                                 if($firstOfTheMonthkey == 7){
