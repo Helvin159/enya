@@ -75,7 +75,7 @@
 
 
                     </div>
-                        <div id="<?php echo $count; ?>" class="container day  <?php if($count <= date('j')){ echo ' ';}else{ echo 'openTime'; }; if($count == date('j')){ echo 'todayFont'; } ?>   ">
+                        <div id="<?php echo $count; ?>" class="container day  <?php if($count < date('j')){ echo ' ';}else{ echo 'openTime '; }; if($count == date('j')){ echo 'todayFont'; } ?>   ">
                             <i id="<?php echo "$btnId"; ?>" class="far fa-times-circle <?php if($count == date('j')){ echo 'todayFont'; }else{ echo 'colorD';} ?> text-right closeBtn fontSize22"></i>
                             <p  class="px-5 fontSize28"><?php echo $count; ?></p>  
                                 <div class="agenda  text-center">
