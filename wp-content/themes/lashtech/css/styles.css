@@ -327,17 +327,17 @@ font-weight: 500;
 
 .sectionOne{
   height: auto;
-  padding: 15% 0;
+  padding: 2.5% 0;
 }
 
 .sectionTwo
  {
-  min-height: 60vh;
+  min-height: 95vh;
 }
 
 .sectionThree{
 height: auto;
-padding: 15% 0;
+padding: 2.5% 0;
 }
 
 .sectionThree button{

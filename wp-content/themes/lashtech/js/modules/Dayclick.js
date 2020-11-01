@@ -13,6 +13,7 @@ class DayClick{
         this.calendarTitle = $('.contactTitle');
         this.input = $('.bookingTimeOption');
         this.agendaShown = false;
+
         this.events();
     }
 
@@ -20,7 +21,7 @@ class DayClick{
     events(){
         this.days.on('click', this.showAgenda.bind(this));
         this.closeBtn.on('click', this.closeAgenda.bind(this));            
-        this.bookSesh.on('click', this.bookSession.bind(this));            
+        this.bookSesh.on('click', this.bookSession.bind(this));       
     }
 
 
@@ -29,7 +30,7 @@ class DayClick{
         if(this.agendaShown === false){
             setTimeout(() =>{
                 let dayId = e.currentTarget.id
-                console.log(e.currentTarget.id)
+                // console.log(e.currentTarget.id)
                 $(`#${dayId}`).find($('.agenda')).addClass('showAgenda')
                 // alert(`#${dayId}`)
                 // this.input.addClass('focus')
