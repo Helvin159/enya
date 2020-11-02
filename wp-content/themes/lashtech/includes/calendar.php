@@ -30,9 +30,10 @@
                     $phoneId++;
                     $timeId++;
                     $dayId++;
+                    $width = "14.285714285714286"
             ?>
             <!-- Column for each day of the month -->
-                        <div  class="col-md-2 py-4 days 
+                        <div  class="cal col-lg-1 py-4 days 
                             <?php 
                                 if($count < date('j')){ 
                                     echo 'previousDateOverlay';

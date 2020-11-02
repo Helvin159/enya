@@ -296,6 +296,11 @@ font-weight: 500;
   background-color: #FADADD75;
 }
 
+.cal .col-md-1{
+  width: 14.285714285714286%;
+  *width:14.285714285714286%;
+}
+
 /* Cards */
 /* buttons */
   .add_to_cart_button{
@@ -400,6 +405,12 @@ background-color:#E3BFBA
     text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
   }
 
+  .days {
+    width: 100%;
+    *width: 100%;
+    min-width: 100%;
+  }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -439,6 +450,12 @@ background-color:#E3BFBA
     text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
   }
 
+  .days {
+    width: 100%;
+    *width: 100%;
+    min-width: 100%;
+
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -476,6 +493,15 @@ background-color:#E3BFBA
     margin: 0;
     padding: 0;
   }
+
+
+/* 100 / 3 = 33.333333333333333 */
+  .days {
+    width: 33.333333333333333%;
+    *width: 33.333333333333333%;
+    min-width:33.333333333333333%;
+  }
+
   
 }
 
@@ -514,6 +540,15 @@ background-color:#E3BFBA
     margin: 0;
     padding: 0;
   }
+
+
+  /* 100 / 7 = 14.285714285714286 */
+    .days {
+      width: 14.285714285714286%;
+      *width: 14.285714285714286%;
+      min-width: 14.285714285714286%;
+    }
+
   
 }
 
