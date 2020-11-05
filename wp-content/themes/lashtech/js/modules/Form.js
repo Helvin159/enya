@@ -1,24 +1,15 @@
-import $ from 'jquery'
-
 class Form{
     constructor(){
+        // const inputs = document.getElementsByTagName('input');
 
-        // this.days = document.getElementsByClassName('openTime');
-        this.days = $('.openTime');
-        this.agenda = $('.agenda');
-        this.closeBtn = $('.closeBtn');
-        this.bookSesh = $('.bookSesh');
-        this.thankYou = $('.thankYou');
-        this.calendar = $('.calendar');
-        this.calendarTitle = $('.contactTitle');
-        this.input = $('.bookingTimeOption');
-        this.agendaShown = false;
-
+        // console.log(inputs)
         this.events();
     }
 
 
+
     events(){
+        
                  
     }
 

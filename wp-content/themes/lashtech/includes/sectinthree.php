@@ -23,16 +23,16 @@
         <label for="" class="text-left millgoudy fontSize18">
             Date: 
             <br>
-            <input type="date" required>
+            <input type="date" name="date" required>
         </label>
         <br>
         <label for="set" class="text-left millgoudy fontSize18">
             Lash Set:
             <br>
-                <select name="set" id="" placeholder="" class="millgoudy fontSize18">
-                    <option value="setOne">Set 1</option>
-                    <option value="setTwo">Set 2</option>
-                    <option value="setThree">Set 3</option>
+                <select name="set" name="lashType" id="" placeholder="" class="millgoudy fontSize18">
+                    <option name="set1" value="setOne">Set 1</option>
+                    <option name="set2" value="setTwo">Set 2</option>
+                    <option  name="set3" value="setThree">Set 3</option>
                 </select>
         </label>
         <br>
