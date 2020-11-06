@@ -1,18 +1,15 @@
 <div class="container-fluid py-5 text-center">
     <div class="container showCard dateCard p-5 contactFormContainer">
         <h1 class="py-3">Pick A Date</h1>
-        <form>
             <label for="">
                 Date: <br>
                 <input type="date" required>
             </label>
             <br>
-            <button class="btn fontSize20 button my-3 colorD">Next <i class="fas fa-arrow-right"></i></button>
-        </form>
+            <button id="nextOne" class="btn fontSize20 button my-3 colorD">Next <i class="fas fa-arrow-right"></i></button>
     </div>
-    <div class="container showCard dateCard p-3 my-5 contactFormContainer">
+    <div class="container  dateCard p-3 my-5 contactFormContainer">
         <h1 class="py-3">Lash Type</h1>
-        <form>
             <label for="">
             Lash Set: <br>
                 <select name="set" name="lashType" id="" placeholder="" class="millgoudy fontSize18">
@@ -22,10 +19,9 @@
                 </select>
             </label>
             <br>
-            <button class="noSubmit btn fontSize20 button my-3 colorD">Next <i class="fas fa-arrow-right"></i></button>
-        </form>
+            <button id="nextTwo" class="noSubmit btn fontSize20 button my-3 colorD">Next <i class="fas fa-arrow-right"></i></button>
     </div>
-    <div class="container showCard dateCard p-3 contactFormContainer">
+    <div class="container  dateCard p-3 contactFormContainer">
         <h1 class="py-3">Contact Info.</h1>
         <form action="" method="post">
             <label for="">
@@ -45,5 +41,8 @@
             <br>
             <button id="submitBooking" class="btn fontSize20 button my-3 colorD">Submit</button>
         </form>
+    </div>
+    <div class="container py-5 thankYou text-center">
+        <h1 class="display-4 p-5">Thank You! <br> We'll be in touch as soon as possible!</h1>
     </div>
 </div>

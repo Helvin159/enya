@@ -172,6 +172,8 @@ font-weight: 500;
     background-size: cover !important;
     background-repeat:no-repeat !important;
     background-position: center center !important;
+    background:url('../assets/img/5.jpg'),
+    linear-gradient(90deg, rgba(250, 218, 221, 1), rgba(250, 218, 221, 1));
   }
 
   
@@ -193,6 +195,11 @@ font-weight: 500;
     padding: 0;
     margin: 0;
     background-color: #FADADD;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: top;
+    background:url('../assets/img/4.jpg'),
+    linear-gradient(90deg, rgba(250, 218, 221, 1), rgba(250, 218, 221, 1));
   }
 
   .bannerText{
@@ -341,6 +348,10 @@ font-weight: 500;
 
 .showCard{
   display: block;
+}
+
+.thankYou{
+  display: none;
 }
 
 
