@@ -230,6 +230,21 @@ font-weight: 500;
   cursor: pointer;
 }
 
+#monthOptions{
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  width: 350px;
+  border-bottom: .5px solid #75595d;
+  padding: 1% 0;
+  font-family: sorts-mill-goudy,
+  serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+
+
 .agenda{
   display:none;
   margin: 0;
