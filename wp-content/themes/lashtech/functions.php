@@ -14,9 +14,9 @@ function lash_files (){
   } else{
       // CSS
     //   wp_enqueue_style('my-style', get_theme_file_uri('/css/styles.css'), null, '1.0', 'all');
-      wp_enqueue_style('my-style', get_theme_file_uri('/bundled-assets/styles.a66e3c7b786156a2d1bb.css'), null, '1.0', 'all');
-      wp_enqueue_script('our-vendors-js', get_theme_file_uri('/bundled-assets/vendors~scripts.920bf068e75aa8ef387f.js'), NULL, '1.0', true);
-      wp_enqueue_script('main-lash-scripts', get_theme_file_uri('/bundled-assets/scripts.a66e3c7b786156a2d1bb.js'), NULL, '1.0', true);
+      wp_enqueue_style('my-style', get_theme_file_uri('/bundled-assets/styles.54e5a1d31bdb38da5442.css'), null, '1.0', 'all');
+      wp_enqueue_script('our-vendors-js', get_theme_file_uri('/bundled-assets/undefined'), NULL, '1.0', true);
+      wp_enqueue_script('main-lash-scripts', get_theme_file_uri('/bundled-assets/scripts.54e5a1d31bdb38da5442.js'), NULL, '1.0', true);
     }
 
   // Jquery

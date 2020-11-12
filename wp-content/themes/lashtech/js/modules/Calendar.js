@@ -146,6 +146,7 @@ class calendar {
                 const day = date.getDate();
                 const daysOfWeek = ['Sun','Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat']
                 
+                
 
                 // ****************************************
                 // Loop
