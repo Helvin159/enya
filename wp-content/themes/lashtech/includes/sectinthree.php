@@ -26,15 +26,9 @@
             <input type="date" name="date" required>
         </label>
         <br>
-        <label for="set" class="text-left millgoudy fontSize18">
-            Lash Set:
-            <br>
-                <select name="set" name="lashType" id="" placeholder="" class="millgoudy fontSize18">
-                    <option name="set1" value="setOne">Set 1</option>
-                    <option name="set2" value="setTwo">Set 2</option>
-                    <option  name="set3" value="setThree">Set 3</option>
-                </select>
-        </label>
+        <textarea name="" id="" cols="30" rows="10" class="millgoudy">
+
+        </textarea>
         <br>
         <button class="btn button my-3 colorD">Submit</button>
     </div>

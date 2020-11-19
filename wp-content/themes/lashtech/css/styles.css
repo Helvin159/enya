@@ -108,6 +108,13 @@ font-weight: 500;
   .colorC {
       color: #FADADD !important;
   }
+  .bgColorC {
+      color: #FADADD !important;
+  }
+  
+  .bgColorC {
+      background-color: #FADADD !important;
+  }
 
   .colorD{
     color: #75595d !important;
@@ -135,6 +142,10 @@ font-weight: 500;
   .contactFormContainer label,
   .contactFormContainer select,
   .contactFormContainer option{
+    width: 55%;
+  }
+
+  .contactFormContainer textarea{
     width: 55%;
   }
 
@@ -193,7 +204,7 @@ font-weight: 500;
   }
 
   .banner{
-    height: 45vh;
+    height: 65vh;
     width: 100vw;
     padding: 0;
     margin: 0;
@@ -202,7 +213,7 @@ font-weight: 500;
     background-repeat:no-repeat;
     background-position: top;
     background:url('../assets/img/4.jpg'),
-    linear-gradient(90deg, rgba(250, 218, 221, 1), rgba(250, 218, 221, 1));
+    linear-gradient(90deg, rgba(250, 218, 221, 1), rgba(250, 218, 221, 1)) !important;
   }
 
   .bannerText{
@@ -414,6 +425,7 @@ background-color:#E3BFBA
   display: none;
   background-color: rgba(0,0,0,0.95);
   z-index: 1;
+  overflow-x: hidden;
 }
 
 .showOverlay{
@@ -447,20 +459,27 @@ background-color:#E3BFBA
     position: absolute;
     top: 60%;
     left: 30%;
+    right: 30%;
+    text-align: center;
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
   }
   .heroText {
     position: absolute;
     top: 40%;
-    left: 3%;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+    /* font  */
     font-size: 50px;
     color: #75595d;
     font-family: sorts-mill-goudy,
       serif;
     font-style: normal;
     font-weight: 500;
-    width: 95%;
-    text-align: center;
+    
+    /* size  */
+    width: auto;
     margin: 0;
     padding: 0;
     text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
@@ -484,13 +503,14 @@ background-color:#E3BFBA
   }
   
   .heroBtn {
-    margin: 0;
+    margin: 0 0;
     padding: 2%;
     font-size: 19px;
     background-color: #E3BFBA;
     position: absolute;
-    top: 55%;
-    left: 34%;
+    top: 59%;
+    left: 30%;
+    right: 30%;
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
   }
 
@@ -535,22 +555,29 @@ background-color:#E3BFBA
     background-color: #E3BFBA;
     position: absolute;
     top: 55%;
-    left: 41%;
+    left: 40%;
+    right: 40%;
+    text-align: center;
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
   }
 
   .heroText {
     position: absolute;
     top: 35%;
-    left: 23%;
+    left: 0;
+    right: 0;
+
+    /* Font */
+    text-align: center;
     font-size: 65px;
     color: #75595d;
     font-family: sorts-mill-goudy,
       serif;
     font-style: normal;
     font-weight: 500;
-    width: 55%;
-    text-align: center;
+
+    /* Size */
+    width: auto;
     margin: 0;
     padding: 0;
   }
@@ -568,6 +595,60 @@ background-color:#E3BFBA
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+  .hero {
+    background-color: #FADADD;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+  }
+
+  .heroBtn {
+    margin: 0;
+    padding: 1%;
+    font-size: 19px;
+    background-color: #E3BFBA;
+    position: absolute;
+    top: 65%;
+    left: 40%;
+    right: 40%;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+  }
+
+  .heroText {
+    /* Position */
+    position: absolute;
+    top: 35%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 65px;
+
+    /* Font */
+    color: #75595d;
+    font-family: sorts-mill-goudy,
+      serif;
+    font-style: normal;
+    font-weight: 500;
+
+    /* Size */
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  /* 100 / 7 = 14.285714285714286 */
+  .days {
+    width: 14.285714285714286%;
+    *width: 14.285714285714286%;
+    min-width: 14.285714285714286%;
+  }
+
+  
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
   .hero {
     background-color: #FADADD;
     background-size: cover !important;
@@ -604,14 +685,9 @@ background-color:#E3BFBA
 
 
   /* 100 / 7 = 14.285714285714286 */
-    .days {
-      width: 14.285714285714286%;
-      *width: 14.285714285714286%;
-      min-width: 14.285714285714286%;
-    }
-
-  
+  .days {
+    width: 14.285714285714286%;
+    *width: 14.285714285714286%;
+    min-width: 14.285714285714286%;
+  }
 }
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
