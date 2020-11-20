@@ -9,7 +9,7 @@
       <?php
       if($_SERVER['REQUEST_URI'] != '/' or $_SERVER['REQUEST_URI'] != '/pages'){?>
         <li class="nav-item  ">
-        <a class="nav-link colorD fontSize20 <?php if($_SERVER['REQUEST_URI'] == '/'){echo 'active';}; ?>" href="<?php echo esc_url(site_url('/'))?>">Home</a>
+        <a class="nav-link colorD fontSize20 <?php if($_SERVER['REQUEST_URI'] == '/'){echo 'active';}; ?>" href="<?php echo esc_url(site_url('/'))?>">Home <?php echo $_SERVER['REQUEST_URI'];?></a>
       </li>
       <?php } ?>
       <li class="nav-item  ">
