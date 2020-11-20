@@ -3,7 +3,7 @@
         <?php 
             if($_SERVER['REQUEST_URI'] == '/'){
                 echo 'Contact Me';
-            } else if($_SERVER['REQUEST_URI'] == '/contact/'){
+            } else if($_SERVER['REQUEST_URI'] == '/contact/' or $_SERVER['REQUEST_URI'] == '/pages/enya/contact/'){
                 echo 'Not Ready To Book'; echo '<br>'; echo 'Send Me A Message!';
             }
         ?>
