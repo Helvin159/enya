@@ -257,6 +257,12 @@ font-weight: 500;
 
 
 /* Calendar */
+
+.calendlyContainer{
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.15), -2px 2px 8px rgba(0,0,0,0.15);
+  border-radius: 15px;
+}
+
 .days{
   border: 1px solid #FADADD;
   cursor: pointer;

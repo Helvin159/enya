@@ -6,9 +6,12 @@
 
   <div class="collapse navbar-collapse m-auto" id="navbarSupportedContent">
     <ul class="navbar-nav">
-      <li class="nav-item  ">
+      <?php
+      if($_SERVER['REQUEST_URI'] != '/'){?>
+        <li class="nav-item  ">
         <a class="nav-link colorD fontSize20 <?php if($_SERVER['REQUEST_URI'] == '/'){echo 'active';}; ?>" href="<?php echo esc_url(site_url('/'))?>">Home</a>
       </li>
+      <?php } ?>
       <li class="nav-item  ">
         <a class="nav-link colorD fontSize20 <?php if($_SERVER['REQUEST_URI'] == '/blog/'){echo 'active';}; ?>" href="<?php echo esc_url(site_url('/blog/'))?>">Blog</a>
       </li>
