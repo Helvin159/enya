@@ -1,5 +1,14 @@
 <div class="container-fluid sectionThree text-center">
-    <h1 class="pt-5 pb-3 colorD">Contact Me</h1>
+    <h1 class="pt-5 pb-3 colorD">
+        <?php 
+            if($_SERVER['REQUEST_URI'] == '/'){
+                echo 'Contact Me';
+            } else if($_SERVER['REQUEST_URI'] == '/contact/'){
+                echo 'Not Ready To Book'; echo '<br>'; echo 'Send Me A Message!';
+            }
+        ?>
+
+    </h1>
     <hr class="w-50 pb-4 colorD">
     <div class="container contactFormContainer colorD">
         <label for="name" class="text-left millgoudy fontSize18">

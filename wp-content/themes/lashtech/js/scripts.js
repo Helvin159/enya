@@ -14,7 +14,6 @@ const form = new Form;
 const click = new Click;
 
 
-
 // Allow JS & CSS to display without page refresh
 if(module.hot){
     module.hot.accept()

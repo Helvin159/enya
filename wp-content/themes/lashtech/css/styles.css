@@ -40,6 +40,17 @@ font-weight: 500;
       font-weight: 500;
   }
 
+  p{
+    font-size: 20px;
+    line-height: 1.8;
+    /* Font Millgoudy */
+    font-family: sorts-mill-goudy,
+    serif;
+    font-style: normal;
+    font-weight: 500;
+
+  }
+
   a{
       font-family: sorts-mill-goudy,
       serif;
@@ -155,15 +166,25 @@ font-weight: 500;
       top: 0;
       right: 0;
       left: 0;
-      background-color: rgba(117,89,93,.40) !important;
-      padding: 1.5% 2%;
+      background-color: rgba(117,89,93,.30) !important;
+      padding: 1.5% 2.5%;
   }
 
   .navbar-brand{
     color: #75595d !important;
     font-size: 30px;
-    
+
   }
+
+  /* .navbar-nav{
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: auto;
+    margin: 0;
+    padding: 0;
+  } */
 
   .active{
     color: #3A2C2E75 !important;
@@ -204,31 +225,32 @@ font-weight: 500;
   }
 
   .banner{
-    height: 65vh;
+    height: 50vh;
     width: 100vw;
     padding: 0;
     margin: 0;
     background:url('../assets/img/4.jpg'),
-        linear-gradient(90deg, rgba(250, 218, 221, 1), rgba(250, 218, 221, 1)) !important;
+        linear-gradient(90deg, rgba(250, 218, 221, 1), rgba(250, 218, 221, 1));
     background-color: #FADADD;
-    background-size:cover;
-    background-repeat:no-repeat;
+    background-size:cover !important;
+    background-repeat:no-repeat !important;
     background-position: top;
 
   }
 
   .bannerText{
     position: absolute;
-    top: 15%;
-    left: 29%;
+    top: 25%;
+    left: 0;
+    right: 0;
+    width: auto;
+    text-align: center;
     font-size: 60px;
     color: #75595d;
     font-family: sorts-mill-goudy,
     serif;
     font-style: normal;
     font-weight: 500;
-    width: 43%;
-    text-align: center;
     margin: 0;
     padding: 0;
   }
@@ -663,23 +685,26 @@ background-color:#E3BFBA
     font-size: 19px;
     background-color: #E3BFBA;
     position: absolute;
-    top: 65%;
-    left: 42%;
-    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+    top: 60%;
+    left: 42.5%;
+    right: 42.5%;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2), -1px 1px 6px rgba(0,0,0,0.2);
   }
 
   .heroText {
     position: absolute;
     top: 35%;
-    left: 27%;
+    left: 0;
+    right: 0;
+    text-align: center;
     font-size: 65px;
     color: #75595d;
     font-family: sorts-mill-goudy,
       serif;
     font-style: normal;
     font-weight: 500;
-    width: 43%;
-    text-align: center;
+    width: auto;
+
     margin: 0;
     padding: 0;
   }

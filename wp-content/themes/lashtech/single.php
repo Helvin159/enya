@@ -14,15 +14,7 @@
         </div>
     </div>
 
-
-
-
-
-
-
-
-
-
     <?php
-    get_footer();
-?>
+        require_once('includes/postimgwithcaptions.php');
+        get_footer();
+    ?>

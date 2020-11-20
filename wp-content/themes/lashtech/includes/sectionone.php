@@ -1,6 +1,6 @@
 <div class="container-fluid sectionOne">
     <div class="container text-center p-5">
-        <h1 id="headers" class=" p-md-0 p-lg-5 colorD">High Quality Lash Sets!</h1>
+        <h1 id="headers" class=" p-md-0 p-lg-5 colorD">What I've Been Up To</h1>
         <p class="mb-5 colorD fontSize18">Maecenas ex orci, aliquet sed nisl in, gravida pellentesque ligula.</p>
         <div class="row p-lg-3">
         <?php 
@@ -24,6 +24,7 @@
                 
                 </div>
             <?php }
+            wp_reset_postdata();
             ?>
         </div>
     </div>
