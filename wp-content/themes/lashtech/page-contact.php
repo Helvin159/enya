@@ -6,7 +6,7 @@
         <div class="container" >
             <div class="row">
                 <div class="col-sm-6 d-none d-sm-none d-md-block d-lg-block py-5">
-                    <img class="img-fluid mt-5" src="<?php echo get_theme_file_uri('assets/img/ai2.png')?>" alt="">
+                    <img class="img-fluid mt-5" src="<?php  echo get_theme_file_uri('assets/img/ai2.png')?>" alt="">
                 </div>
                 <div class="col-sm-6">
                     <div class="calendlyContainer">

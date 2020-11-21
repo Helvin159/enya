@@ -3,7 +3,12 @@
     require_once('includes/banner.php');
 ?>
 
+
+                    <?php require('includes/svgImage.php')?>
+
+
 <div class="container-fluid">
+    
     <div class="container py-5">
         <h1>What I've Been Up To</h1>
 
